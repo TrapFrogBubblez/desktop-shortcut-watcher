@@ -19,16 +19,15 @@ Automatically creates Desktop shortcuts for new or updated applications on GNOME
 
 The easiest way to install and start the watcher is with the following one-liner (copy-paste into your terminal):
 
-
-git clone https://github.com/TrapFrogBubblez/desktop-shortcut-watcher.git ~/desktop-shortcut-watcher-temp && \
-mkdir -p ~/.local/bin ~/.config/desktop-shortcut-watcher ~/.config/systemd/user && \
-cp ~/desktop-shortcut-watcher-temp/desktop-shortcut-watcher.sh ~/.local/bin/ && \
-cp ~/desktop-shortcut-watcher-temp/config.env.example ~/.config/desktop-shortcut-watcher/config.env && \
-cp ~/desktop-shortcut-watcher-temp/desktop-shortcut-watcher.service ~/.config/systemd/user/ && \
-chmod +x ~/.local/bin/desktop-shortcut-watcher.sh && \
-systemctl --user daemon-reload && \
-systemctl --user enable --now desktop-shortcut-watcher.service && \
-rm -rf ~/desktop-shortcut-watcher-temp
+    git clone https://github.com/TrapFrogBubblez/desktop-shortcut-watcher.git ~/desktop-shortcut-watcher-temp && \
+    mkdir -p ~/.local/bin ~/.config/desktop-shortcut-watcher ~/.config/systemd/user && \
+    cp ~/desktop-shortcut-watcher-temp/desktop-shortcut-watcher.sh ~/.local/bin/ && \
+    cp ~/desktop-shortcut-watcher-temp/config.env.example ~/.config/desktop-shortcut-watcher/config.env && \
+    cp ~/desktop-shortcut-watcher-temp/desktop-shortcut-watcher.service ~/.config/systemd/user/ && \
+    chmod +x ~/.local/bin/desktop-shortcut-watcher.sh && \
+    systemctl --user daemon-reload && \
+    systemctl --user enable --now desktop-shortcut-watcher.service && \
+    rm -rf ~/desktop-shortcut-watcher-temp
 
 This will:
 
