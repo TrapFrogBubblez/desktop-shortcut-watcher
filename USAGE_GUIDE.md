@@ -40,19 +40,19 @@ Copy the example config (if not already done):
 
 Open config.env in your favorite editor and adjust:
 
-## Destination for desktop shortcuts
+**Destination for desktop shortcuts**
 DEST_DIR="${HOME}/Desktop"
 
-## Log file path
+**Log file path**
 LOG_FILE="${HOME}/.local/share/desktop-shortcut-watcher.log"
 
-## Overwrite existing shortcuts: "true" or "false"
+**Overwrite existing shortcuts: "true" or "false"**
 OVERWRITE="true"
 
-## Regex to skip certain apps
+**Regex to skip certain apps**
 BLACKLIST_REGEX=""
 
-## Include Terminal=true apps on Desktop: "true" or "false"
+**Include Terminal=true apps on Desktop: "true" or "false"**
 INCLUDE_TERMINAL="true"
 
 Save changes and restart the service to apply:
