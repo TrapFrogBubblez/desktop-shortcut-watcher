@@ -11,7 +11,7 @@
 ![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-orange)
 
 
-Automatically creates Desktop shortcuts for new or updated applications on GNOME-based Linux systems. This tool monitors `.desktop` launcher files from Snap, Flatpak, `.deb`, and local installations, ensuring your Desktop always has shortcuts for visible GUI apps.
+Automatically create Desktop shortcuts for new or updated applications on GNOME-based Linux systems. This tool monitors `.desktop` launcher files from Snap, Flatpak, `.deb`, and local installations, ensuring your Desktop always has shortcuts for visible GUI apps.
 
 ---
 
