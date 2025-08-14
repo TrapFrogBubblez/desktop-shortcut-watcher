@@ -47,11 +47,11 @@ Configuration
 
 By default, the watcher uses sane defaults. To customize:
 
-    Copy the example config (done automatically by the one-liner):
+Copy the example config (done automatically by the one-liner):
 
-cp ~/.config/desktop-shortcut-watcher/config.env.example ~/.config/desktop-shortcut-watcher/config.env
+    cp ~/.config/desktop-shortcut-watcher/config.env.example ~/.config/desktop-shortcut-watcher/config.env
 
-    Edit config.env to adjust:
+Edit config.env to adjust:
 
 # Destination for desktop shortcuts
 DEST_DIR="${HOME}/Desktop"
@@ -68,7 +68,7 @@ BLACKLIST_REGEX=""
 # Include Terminal=true apps on Desktop: "true" or "false"
 INCLUDE_TERMINAL="true"
 
-Usage
+# Usage
 
 Once installed:
 
@@ -92,6 +92,6 @@ To restart after configuration changes:
 
     systemctl --user restart desktop-shortcut-watcher.service
 
-License:
+# License:
 
-    This project is licensed under the MIT License.
+This project is licensed under the MIT License.
