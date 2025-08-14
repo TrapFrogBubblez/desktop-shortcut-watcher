@@ -92,6 +92,6 @@ To restart after configuration changes:
 
 systemctl --user restart desktop-shortcut-watcher.service
 
-License
+License:
 
-This project is licensed under the MIT License.
+    This project is licensed under the MIT License.
