@@ -42,17 +42,17 @@ The easiest way to install and start the watcher is with the following one-liner
 
 This will:
 
-    Clone the repository to a temporary folder.
+Clone the repository to a temporary folder.
 
-    Create necessary directories for the script, configuration, and systemd service.
+Create necessary directories for the script, configuration, and systemd service.
 
-    Copy the script, config example, and service to their proper locations.
+Copy the script, config example, and service to their proper locations.
 
-    Make the script executable.
+Make the script executable.
 
-    Reload systemd user units, enable the service, and start it immediately.
+Reload systemd user units, enable the service, and start it immediately.
 
-    Remove the temporary clone folder.
+Remove the temporary clone folder.
 
 ## Configuration
 
