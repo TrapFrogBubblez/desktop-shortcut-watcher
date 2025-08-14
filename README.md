@@ -64,19 +64,19 @@ Copy the example config (done automatically by the one-liner):
 
 Edit config.env to adjust:
 
-# Destination for desktop shortcuts
+## Destination for desktop shortcuts
 DEST_DIR="${HOME}/Desktop"
 
-# Log file path
+## Log file path
 LOG_FILE="${HOME}/.local/share/desktop-shortcut-watcher.log"
 
-# Overwrite existing shortcuts: "true" or "false"
+## Overwrite existing shortcuts: "true" or "false"
 OVERWRITE="true"
 
-# Regex to skip certain apps, e.g., "^(org.gnome|com.canonical)"
+## Regex to skip certain apps, e.g., "^(org.gnome|com.canonical)"
 BLACKLIST_REGEX=""
 
-# Include Terminal=true apps on Desktop: "true" or "false"
+## Include Terminal=true apps on Desktop: "true" or "false"
 INCLUDE_TERMINAL="true"
 
 # Usage
