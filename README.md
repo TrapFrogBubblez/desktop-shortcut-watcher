@@ -82,15 +82,15 @@ Once installed:
 
 To check the service status:
 
-systemctl --user status desktop-shortcut-watcher.service
+    systemctl --user status desktop-shortcut-watcher.service
 
 To stop the watcher:
 
-systemctl --user stop desktop-shortcut-watcher.service
+    systemctl --user stop desktop-shortcut-watcher.service
 
 To restart after configuration changes:
 
-systemctl --user restart desktop-shortcut-watcher.service
+    systemctl --user restart desktop-shortcut-watcher.service
 
 License:
 
