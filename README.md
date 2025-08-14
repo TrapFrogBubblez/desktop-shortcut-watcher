@@ -19,7 +19,7 @@ Automatically creates Desktop shortcuts for new or updated applications on GNOME
 
 The easiest way to install and start the watcher is with the following one-liner (copy-paste into your terminal):
 
-```bash
+
 git clone https://github.com/TrapFrogBubblez/desktop-shortcut-watcher.git ~/desktop-shortcut-watcher-temp && \
 mkdir -p ~/.local/bin ~/.config/desktop-shortcut-watcher ~/.config/systemd/user && \
 cp ~/desktop-shortcut-watcher-temp/desktop-shortcut-watcher.sh ~/.local/bin/ && \
