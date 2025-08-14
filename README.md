@@ -40,7 +40,7 @@ The easiest way to install and start the watcher is with the following one-liner
     systemctl --user enable --now desktop-shortcut-watcher.service && \
     rm -rf ~/desktop-shortcut-watcher-temp
 
-This will:
+### This will:
 
 Clone the repository to a temporary folder.
 
