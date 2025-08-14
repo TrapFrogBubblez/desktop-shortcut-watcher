@@ -83,13 +83,13 @@ INCLUDE_TERMINAL="true"
 
 Once installed:
 
-    The watcher automatically syncs existing .desktop files to your Desktop.
+The watcher automatically syncs existing .desktop files to your Desktop.
 
-    New or updated applications will be copied automatically.
+New or updated applications will be copied automatically.
 
-    Logs are stored in the path specified by LOG_FILE (default: ~/.local/share/desktop-shortcut-watcher.log).
+Logs are stored in the path specified by LOG_FILE (default: ~/.local/share/desktop-shortcut-watcher.log).
 
-    The service runs continuously in the background as a systemd user service.
+The service runs continuously in the background as a systemd user service.
 
 To check the service status:
 
