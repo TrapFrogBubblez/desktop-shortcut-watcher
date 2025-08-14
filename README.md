@@ -1,9 +1,15 @@
 # Desktop Shortcut Watcher
 
+![Release](https://img.shields.io/github/v/release/TrapFrogBubblez/desktop-shortcut-watcher)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![GitHub stars](https://img.shields.io/github/stars/TrapFrogBubblez/desktop-shortcut-watcher?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/TrapFrogBubblez/desktop-shortcut-watcher)
 ![GitHub forks](https://img.shields.io/github/forks/TrapFrogBubblez/desktop-shortcut-watcher?style=social)
+![Downloads](https://img.shields.io/github/downloads/TrapFrogBubblez/desktop-shortcut-watcher/total)
+![Last commit](https://img.shields.io/github/last-commit/TrapFrogBubblez/desktop-shortcut-watcher)
+![Linux](https://img.shields.io/badge/OS-Linux-yellow)
+![Ubuntu](https://img.shields.io/badge/OS-Ubuntu-orange)
+
 
 Automatically creates Desktop shortcuts for new or updated applications on GNOME-based Linux systems. This tool monitors `.desktop` launcher files from Snap, Flatpak, `.deb`, and local installations, ensuring your Desktop always has shortcuts for visible GUI apps.
 
