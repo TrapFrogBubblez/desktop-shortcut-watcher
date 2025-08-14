@@ -1,0 +1,16 @@
+[Unit]
+Description=Desktop Shortcut Watcher
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/desktop-shortcut-watcher.sh
+Restart=on-failure
+RestartSec=3
+
+# Ensure we have a sane environment
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+
+[Install]
+WantedBy=default.target
+
