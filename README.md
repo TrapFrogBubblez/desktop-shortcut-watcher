@@ -54,7 +54,7 @@ This will:
 
     Remove the temporary clone folder.
 
-Configuration
+## Configuration
 
 By default, the watcher uses sane defaults. To customize:
 
@@ -62,7 +62,7 @@ Copy the example config (done automatically by the one-liner):
 
     cp ~/.config/desktop-shortcut-watcher/config.env.example ~/.config/desktop-shortcut-watcher/config.env
 
-Edit config.env to adjust:
+# Edit config.env to adjust:
 
 ## Destination for desktop shortcuts
 DEST_DIR="${HOME}/Desktop"
